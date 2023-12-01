@@ -1,0 +1,377 @@
+:root {
+    --text-color: #667085;
+    --font-color: #8E2424;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: #8E2424;
+    color: #FFF;
+  }
+
+  header {
+    max-width: 100%; /* Ajuste conforme necessário */
+    height: 470px;
+    margin: 0 auto; /* Centraliza o cabeçalho horizontalmente */
+    padding: 96px 0; /* Adicione ou ajuste o preenchimento conforme necessário */
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  
+  .cabecalho-sobre h3 {
+    color: var(--font-color);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    
+  }
+
+  .cabecalho-sobre h1 {
+    color: #101828;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -2%;
+  }
+  
+  .cabecalho-sobre h2 {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    align-items: center;
+  }
+
+  .metricas-container section {
+    width: 100%;
+    height: 288px;
+    gap: 32px;  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .metricas-container {
+    max-width: 100%; /* Ajuste conforme necessário */
+    margin-left: 3% ; /* Centraliza a seção horizontalmente */
+    margin-right: 3%;
+    padding: 0 0 96px 0; /* Adicione ou ajuste o preenchimento conforme necessário */
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .metricas-container div{
+    flex: 0 0 auto;
+    text-align: center;
+    margin: 0.5%;
+    box-sizing: border-box;
+
+    
+  }
+
+  .metricas-container h1 {
+    font-size: 60px;
+    color: var(--font-color);
+    font-weight: 600;
+  }
+  
+  .metricas-container h2 {
+    font-size: 18px;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .metricas-container p {
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-top: 8px; /* Adicione margem entre o h2 e o parágrafo, se necessário */
+    font-family: 'Inter', sans-serif;
+  }
+
+  .container-vagas section {
+    width: 100%;
+    height: 602px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+
+  }
+
+  .container-vagas p {
+    width: 125px;
+    height: 28px;
+    font-size: 14px;
+    mix-blend-mode: multiply;
+    background-color: rgba(142, 36, 36, 0.05);
+    color: var(--font-color);
+    border-radius: 20px;
+    font-family: 'Inter' sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 28px;
+    gap: 16px;
+  }
+
+  .container-vagas h1 {
+    width: 768px;
+    height: 44px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: -2%;
+    text-align: center;
+    color: rgba(16, 24, 40, 1);
+    margin-top: 1%;
+  }
+
+  .container-vagas h2 {
+    width: 768px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(102, 112, 133, 1);
+    margin-top: 1%;
+  }
+
+  .container-vagas img {
+    margin-top: 6%;
+  }
+
+  .container-emprego {
+    font-family: 'Inter', sans-serif;
+  }
+  .container-emprego h1 {
+    margin-top: 5%;
+    text-align: center;
+    
+    
+  }
+  .vaga  {
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 1%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+    padding: 24px;
+    
+  }
+
+  .informacoes {
+    margin-top: 2%;
+    color: rgba(102, 112, 133, 1);
+    font-size: 16px;
+    line-height: 24px;
+    gap: 24px;
+    
+  }
+
+  .informacoes span {
+    margin-right: 5px; /* Adiciona espaço à direita do primeiro span */
+    text-align: center;
+  }
+  .informacoes span:last-child {
+    margin-left: 5px; /* Adiciona espaço à esquerda do segundo span */
+    text-align: center;
+  }
+    
+
+  .titulo-vaga {
+    color: #101828;
+  }
+
+  .depoimento {
+    background-color: rgba(195, 25, 25, 0.03);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 16px;
+    width: 1216px;
+    height: 404px;
+    padding: 64px;
+  }
+
+  .secao-depoimento {
+    margin-top: 3%;
+  }
+
+  .depoimento p {
+    width: 1088px;
+    height: 20px;
+    color: rgba(142, 36, 36, 1);
+    width: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .depoimento h1 {
+    width: 1088px;
+    height: 88px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: center;
+    margin-top: 1.5%;
+  }
+
+  .depoimento img {
+    width: 56px;
+    height: 56px;
+    border-radius: 200px;
+    margin-top: 5%;
+  }
+
+  .depoimento h2 {
+    width: 1088;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  .depoimento h3 {
+    width: 1088px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .secao-rodape {
+    margin-top: 3%;
+    width: 100%;
+    height: 430px;
+    padding: 96px, 0px, 96px, 0px;
+    background-color: rgba(249, 250, 251, 1);
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formulario button {
+    width: 116px;
+    height: 48px;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color:rgba(255, 255, 255, 1);
+    background: rgba(142, 36, 36, 1);
+    font-size: 16px;
+  }
+
+  form {
+    width: 832px;
+    height: 182px;
+    padding: 0px, 32px, 0px, 32px;
+    gap: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .formulario h1 {
+    width: 768px;
+    height: 44px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: center;
+  }
+
+  .formulario p {
+    margin-top: -30px;
+    width: 768px;
+    height: 30px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(102, 112, 133, 1);
+
+  }
+
+  .formulario input {
+    border-radius: 6px;
+    line-height: 10%;
+    height: 48px;
+    width: 492px;
+  }
+
+  .formulario input::placeholder {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  footer {
+    width: 393px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(152, 162, 179, 1);
+    ;
+  }
